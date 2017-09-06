@@ -1,0 +1,26 @@
+html {
+	font-family: sans-serif;
+	background-color: snow;
+}
+em {
+	color: teal;
+}
+h1{
+	color: dodgerblue;
+}
+strong{
+	color: black;
+}
+#tone 
+	color: ##333333;
+}
+#movie-subtitle{
+	color: yellow;
+}
+.script {
+	font-family: monospace;
+}
+.blue {
+	color: dodgerblue;
+}
+}
