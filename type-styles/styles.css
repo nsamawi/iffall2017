@@ -1,0 +1,47 @@
+html,
+body {
+	background-color: snow;
+	font-size: 24px;
+	font-family: "Ubuntu", sans-serif;
+}
+h2 {
+	font-family: "Arial", sans-serif;
+	color: gray;
+}
+code {
+	font-size: 16px;
+	color: gray;
+}
+.font-weight .normal {
+	font-weight: 400;
+}
+.font-weight .bold {
+	font-weight: bold;
+}
+.font-style .italic{
+	font-style: italic;
+}
+.letter-spacing .positive{
+	letter-spacing: 5px;
+}
+.letter-spacing .negative{
+	letter-spacing: -5px;
+}
+.text-transform .uppercase{
+	text-transform: uppercase;
+}
+.text-transform .lowercase{
+	text-transform: lowercase;
+}
+.text-transform .capitalize{
+	text-transform: capitalize;
+}
+.text-decoration .underline{
+	text-decoration: underline;
+}
+.text-decoration .overline{
+	text-decoration: overline;
+}
+.text-decoration .line-through{
+	text-decoration: line-through;
+}
