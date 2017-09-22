@@ -1,0 +1,135 @@
+html {
+	font-family: "Trebuchet MS";
+	background-color: #FFFFFF;
+  background-image: url(https://images.rapgenius.com/87c4d1a7134f9e8b21844ffb0063c247.1000x667x1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 10 px;	
+}
+h1{
+	color: #fbd0d5;
+}
+h3{
+	color: #fbd0d5;
+}
+em:hover{
+	color: #fbd0d5;
+}
+#center-block {
+    position: center;
+    width: 98%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: #f0efec;
+    overflow: auto;
+}
+.column {
+	width: 400px;
+    height: 400px;
+    display: inline-block;
+    float: center;
+    font-family: "Myriad Pro",Helvetica,Arial,sans-serif;
+    font-size: 10 px;
+    color: black;
+    overflow:visible;
+}
+.center-column{
+	width: 500px;
+    height: 400px;
+    display: inline-block;
+    float: center;
+    font-size: 10 px;
+    font-family: "Myriad Pro",Helvetica,Arial,sans-serif;
+    color: black;
+}
+.positive{
+  letter-spacing: 3px;
+  color: darkgray;
+}
+.line{
+  text-decoration: line-through;
+  font-style: italic;
+  margin: 0;
+}
+.top-section{
+  margin-bottom: 0;
+}
+.bottom-section{
+  margin-top: 0;
+}
+.scroll-left {
+  width: 400px;
+  height:400px;
+  display: inline-block;
+  float: center;
+  overflow: hidden;
+  position: center;
+  color: black;
+  border: 2px solid #fbd0d5;
+  background-color: #FFFFFF;
+}
+
+.scroll-left p {
+  position: center;
+  float: center;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  white-space:nowrap;
+  text-transform: lowercase;
+  font-style: italic;
+
+  /*The code below was found online at 
+  https://css-tricks.com/forums/topic/incomplete-horizontal-text-scrolling/ */ 
+  
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  
+  -moz-animation: scroll-left 25s linear infinite;
+  -webkit-animation: scroll-left 25s linear infinite;
+  animation: scroll-left 25s linear infinite;
+}
+/* Move it (define the animation) */
+
+@-moz-keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+    /* Browser bug fix */
+    
+    -webkit-transform: translateX(100%);
+    /* Browser bug fix */
+    
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    /* Browser bug fix */
+    
+    -webkit-transform: translateX(-100%);
+    /* Browser bug fix */
+    
+    transform: translateX(-100%);
+  }
+
+
