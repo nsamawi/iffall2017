@@ -1,5 +1,6 @@
 body {
 	font-family: 'Archivo Narrow', sans-serif;
+	max-width: 1200px;
 }
 #intro {
 	text-align: center;
