@@ -1,0 +1,204 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+#intro {
+	width: 100%;
+	text-align: center;
+	padding-top: 155px;
+	padding-bottom: 204px;
+	background-image: url(http://68.media.tumblr.com/08717c97058fdce6a3ce77ec1d3a4416/tumblr_o3t7hxWDA81slu333o1_1280.gif);
+	background-size: 110%;
+	max-height: 482px;
+	color: white;
+}
+h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 80px;
+	letter-spacing: 0px;
+}
+h3 {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+#paragraph{
+	padding-top: 8px;
+	padding-bottom: 36px;
+	max-height: 700px;
+	padding-left:241px;
+	padding-right:240px;
+	font-size: 18px;
+	line-height: 21.5px;
+	background-color: lavenderblush;
+}
+#photo-grid{
+	padding-top: 10px;
+	padding-bottom: 36px;
+	height: 634px;
+	padding-left:241px;
+	padding-right:240px;
+	font-size: 18px;
+	line-height: 21.5px;
+	background-color: snow;
+	color: darkslateblue;
+}
+h2 {
+	font-size: 41px;
+	line-height: 42px;
+	letter-spacing: -0.4px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h4 {
+    font-size: 21px;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.p1{
+	display: block;
+	margin-top: 34px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.p2{
+	margin-top: 15px;
+	padding-top: 0px;
+	marin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.p3{
+	margin-top: -1px;
+	padding-top: 0px;
+	marin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.container{
+	display: block;
+	width: 960px;
+}
+.left{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 450px;
+}
+.right{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 450px;
+	margin-left: 30px;
+}
+.element{
+	display: block;
+	float: left;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    height: 150px;
+    font-size: 18.5px;
+    letter-spacing: -0.37px;
+    line-height: 1.34rem;
+    font-weight: 500;
+}
+.element-2{
+	display: block;
+	float: left;
+    margin-top: 9px;
+    padding-bottom: 0;
+    height: 150px;
+    font-size: 18.5px;
+    letter-spacing: -0.37px;
+    line-height: 1.34rem;
+    font-weight: 500;
+}
+.photo{
+	margin-top: 32px;
+	margin left: 12px;
+	margin-right: 12px;
+}
+
+.caption {
+	margin-left: 12px;
+
+}
+.caption p{
+	margin-top: 6px;
+}
+
+.caption-2{
+	margin-top: 27px;
+}
+.caption-2 p{
+	margin-top: 6px;
+
+}
+#centered-text{
+	padding-top: 9px;
+	padding-bottom: 36px;
+	padding-left:241px;
+	padding-right:240px;
+	font-size: 27px;
+	line-height: 31px;
+	text-align: center;
+	background-color: pink;
+	height: 367px;
+}
+.centered-paragraph{
+	margin-top: 33px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+#float-right {
+  float: right;
+  height: 300px;
+  width: 400px;
+  margin: 34px 0 20px 40px;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  padding-top: 0;
+}
+#footer{
+	width: 1200px;
+	height: 100px;
+	padding-top: 23px;
+	padding-left: 241px;
+	font-size: 18px;
+	background-color: lavender;
+	color: darkslateblue;
+}
+.links{
+	margin-left: 868px;
+    margin-top: -45px;
+    display: inline;
+    position: absolute;
+    color: darkslateblue;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+}
+.fa-twitter-square:before {
+    content: "\f081";
+}
+.fa-linkedin-square:before {
+    content: "\f08c";
+}
+
