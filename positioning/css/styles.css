@@ -1,0 +1,61 @@
+#right{
+	float:right;
+}
+
+#bottomright{
+	position: absolute;
+	margin-top: 72px;
+	margin-left: 638px;
+}
+
+#green{
+	background-color: green;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+#container{
+	position: relative;
+}
+
+#red{
+    background-color: red;
+    position: absolute;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 10.25rem;
+    width: 15rem;
+    z-index: 2;
+}
+
+#black{
+	background-color: black;
+	position: absolute;
+	display: block;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    margin: auto;
+    height: 10.25rem;
+    width: 15rem;
+    z-index: 1;
+}
+
+
+
+    /*display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    width: 15rem;
+    height: 10.25rem;*/
