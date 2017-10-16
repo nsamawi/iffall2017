@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	max-width:100%;
+	max-height:100%;
+	overflow-x:hidden;
+	font-family: "Cormorant Garamond", Serif;
+}
+aside{
+	font-size: 22px;
+	background-color: rgba(255,255,255,0.4);
+	color: #fff;
+	padding: 1.5rem;
+}
+aside:hover{
+	background-color: rgba(255,255,255,0.7);
+}
+#header{
+	width:100%;
+	background-color: #dedfd9;
+	background-size:100%;
+	margin: 0;
+	height:255px;
+	padding-left:80px;
+	padding-top:35px;
+}
+#banner{
+	height:195px;
+	width:570px;
+}
+a#btn_play {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -85px;
+	margin-left: 1040px;
+	font-size: 20px;
+}
+a#btn_volume {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -85px;
+	margin-left: 1110px;
+	font-size: 20px;
+}
+a#btn_cart {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -85px;
+	margin-left: 1180px;
+	font-size: 20px;
+}
+#lyrics{
+	width:100%;
+	height:950px;
+	background-image:url(https://nsamawi.github.io/iffall2017/lyrics/images/backdrop.jpg);
+	background-size:100%;
+}
+#box1{
+	top: 90px;
+	position:relative;
+	width:350px;
+	height:350px;
+}
+#verse1{
+	position:absolute;
+	font-weight:600;
+	margin-top:70px;
+	margin-left:4px;
+}
+#box2{
+	position:relative;
+	top:90px;
+	left:100px;
+	width:350px;
+	height:350px;
+}
+#chorus1{
+	position:absolute;
+	font-weight:600;
+	font-style:italic;
+	text-align:center;
+	top:70px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+#box3{
+	position:relative;
+	left:498px;
+	top:-467px;
+	width:380px;
+	height:573px;
+}
+#verse2{
+	position:absolute;
+	font-weight:600;
+	margin-top:67px;
+}
+#box4{
+	position:relative;
+	width:350px;
+	height:350px;
+	left:926px;
+	top:-1417px;
+}
+#chorus2{
+	position:absolute;
+	font-weight:600;
+	font-style:italic;
+	text-align:center;
+	top:70px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+#box5{
+	position:relative;
+	width:350px;
+	height:350px;
+	top:-1263px;
+	left:1040px;
+}
+#outro{
+	position:absolute;
+	font-weight:200;
+}
