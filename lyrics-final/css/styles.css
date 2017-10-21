@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	max-width:100%;
+	max-height:100%;
+	overflow-x:hidden;
+	font-family: 'Rosarivo', serif;
+}
+aside{
+	font-size: 16px;
+	background-color: rgba(255,255,255,0);
+	color: #ffe6e6; /*#e6e6ff*/
+	padding: 1.5rem;
+}
+aside:hover{
+	color:#fff;
+	background-color: rgba(255,255,255,0.4);
+	/*text-shadow: 4px 4px 4px rgba(150, 75, 118, 1);*/
+}
+#header{
+	width:100%;
+	background-color: #dedfd9;
+	background-size:100%;
+	margin: 0;
+	height:160px;
+	padding-left:80px;
+	padding-top:0px;
+	position: fixed;
+	z-index:100;
+}
+#banner{
+	margin-top:12px;
+	height:133px;
+	width:350px;
+}
+a#btn_play {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -80px;
+	margin-left: 1040px;
+	font-size: 20px;
+}
+a#btn_volume {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -80px;
+	margin-left: 1110px;
+	font-size: 20px;
+}
+a#btn_cart {
+	position:absolute;
+	display: inline-block;
+	height: 50px;
+	margin-top: -80px;
+	margin-left: 1180px;
+	font-size: 20px;
+}
+#lyrics{
+	width:100%;
+	height:950px;
+	background-image:url(https://nsamawi.github.io/iffall2017/lyrics/images/backdrop.jpg);
+	background-size:100%;
+	background-position:center 160px;
+	padding-top:160px;
+	z-index:50;
+}
+#box1{
+	margin-top: 0px;
+	left:90px;
+	position:absolute;
+	width:285px;
+	height:285px;
+}
+#verse1{
+	position:absolute;
+	font-weight:400;
+	margin-top:60px;
+	margin-left:4px;
+}
+#box2{
+	position:absolute;
+	margin-top:285px;
+	left:100px;
+	width:285px;
+	height:285px;
+}
+#chorus1{
+	position:absolute;
+	font-weight:400;
+	font-style:italic;
+	top:40px;
+	bottom:0px;
+}
+#box3{
+	position:absolute;
+	left:498px;
+	margin-top:0px;
+	width:366px;
+	height:500px;
+}
+#verse2{
+	position:absolute;
+	font-weight:400;
+	margin-top:60px;
+}
+#box4{
+	position:absolute;
+	width:285px;
+	height:285px;
+	left:990px;
+	margin-top:0px;
+}
+#chorus2{
+	position:absolute;
+	font-weight:400;
+	font-style:italic;
+	margin-top:60px;
+}
+#box5{
+	position:absolute;
+	width:285px;
+	height:270px;
+	margin-top:320px;
+	left:990px;
+	color: rgba(255,204,204,0.4);
+}
+#box5:hover{
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,0.3);
+}
+#outro{
+	position:absolute;
+	font-weight:200;
+	margin-top:0px;
+}
