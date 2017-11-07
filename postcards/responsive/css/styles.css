@@ -103,10 +103,7 @@ a{
 	font-size:32px;
 	display: inline-block;
 	position: absolute center;
-	margin:auto;
-	left: 0;
-	right: 0;
-	bottom:150px;
+	margin:0;
 	max-width:400px;
 	text-align: center;
 	line-height:42px;
@@ -116,10 +113,7 @@ a{
 	font-style:italic;
 	display: inline-block;
 	position: absolute;
-	margin:auto;
-	left: 0;
-	right: 0;
-	bottom:100px;
+	margin:0;
 	max-width:400px;
 	text-align: center;
 	}
