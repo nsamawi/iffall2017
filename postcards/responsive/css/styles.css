@@ -106,7 +106,7 @@ a{
 	margin:auto;
 	left: 0;
 	right: 0;
-	top:100px;
+	bottom:200px;
 	max-width:400px;
 	text-align: center;
 	line-height:42px;
@@ -119,7 +119,7 @@ a{
 	margin:auto;
 	left: 0;
 	right: 0;
-	top:300px;
+	bottom:100px;
 	max-width:400px;
 	text-align: center;
 	}
