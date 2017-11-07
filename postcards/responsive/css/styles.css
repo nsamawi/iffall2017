@@ -99,6 +99,7 @@ a{
 		background-image: url("backdrop-04.jpg");
 	}
 	.quote{
+	width:95%;
 	font-size:32px;
 	display: inline-block;
 	position: absolute center;
