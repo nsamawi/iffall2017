@@ -1,0 +1,113 @@
+html{
+	background-image: url("backdrop-03.jpg");
+	height:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	overflow-y:hidden;
+}
+body{
+	color:white;
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+}
+a{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+}
+.quote{
+	font-size:60px;
+	display: inline-block;
+	position: absolute;
+	left: 90px;
+	top: 70px;
+	max-width:650px;
+	text-align: left;
+	line-height:85px;
+}
+
+.attribution{
+	font-size:45px;
+	font-style:italic;
+	display: inline-block;
+	position: absolute;
+	left: 90px;
+	top:480px;
+	max-width:500px;
+	text-align: left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.quote{
+	font-size:45px;
+	max-width:320px;
+	line-height:55px;
+	}
+	.attribution{
+	font-size:32px;
+	top:400px;
+	}
+}
+@media screen and (max-width: 767px){
+	html{
+		background-image: url("backdrop-06.jpg");
+	}
+	.quote{
+	font-size:26px;
+	left: 200px;
+	top:30px;
+	max-width:190px;
+	text-align: left;
+	line-height:34px;
+	}
+	.attribution{
+	font-size:22px;
+	left: 200px;
+	top:230px;
+	text-align: left;
+	}
+}
+@media screen and (max-width: 424px){
+	html{
+		background-image: url("backdrop-06.jpg");
+	}
+	.quote{
+	font-size:22px;
+	left: 180px;
+	top:30px;
+	max-width:190px;
+	text-align: left;
+	line-height:30px;
+	}
+	.attribution{
+	font-size:18px;
+	left: 180px;
+	top:200px;
+	text-align: left;
+	}
+}
+@media screen and (max-width: 374px){
+	html{
+		background-image: url("backdrop-06.jpg");
+	}
+	.quote{
+	font-size:18px;
+	left: 150px;
+	top:30px;
+	max-width:190px;
+	text-align: left;
+	line-height:25px;
+	}
+	.attribution{
+	font-size:15px;
+	left: 150px;
+	top:190px;
+	text-align: left;
+	}
+}
