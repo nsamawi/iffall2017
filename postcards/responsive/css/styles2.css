@@ -64,8 +64,9 @@ a{
 		bottom:125px;
 	}
 	.attribution{
-	font-size:25px;
-	bottom: 50px;
+		font-size:25px;
+		right: 70px;
+		bottom: 50px;
 	}
 }
 @media screen and (max-width: 767px){
@@ -83,18 +84,14 @@ a{
 	font-size:26px;
 	line-height:34px;
 	left:30px;
-	top:540px;
+	top:80%;
 	text-align:left;
 	max-width:210px;
 	}
 	.attribution{
-	font-size:22px;
-	font-style:italic;
-	display: inline-block;
-	position: absolute;
-	margin:auto;
 	left: 30px;
-	top:640px;
+	font-size:22px;
+	top:90%;
 	max-width:500px;
 	text-align: left;
 	}
