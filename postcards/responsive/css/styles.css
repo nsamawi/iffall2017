@@ -103,7 +103,7 @@ a{
 	font-size:32px;
 	display: inline-block;
 	position: absolute center;
-	margin:0;
+	margin:auto;
 	max-width:400px;
 	text-align: center;
 	line-height:42px;
@@ -113,7 +113,7 @@ a{
 	font-style:italic;
 	display: inline-block;
 	position: absolute;
-	margin:0;
+	margin:auto;
 	max-width:400px;
 	text-align: center;
 	}
