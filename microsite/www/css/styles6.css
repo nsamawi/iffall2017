@@ -1,0 +1,252 @@
+body{
+	margin: 0;
+	max-width:100%;
+	max-height:100%;
+	overflow-x:hidden;
+	font-family: 'Futura-CondensedMedium', serif;
+}
+
+/*
+aside{
+	font-size: 16px;
+	line-height:23px;
+	background-color: rgba(255,255,255,0);
+	color: #ffe6e6; /*#e6e6ff*/
+	/*padding: 1.5rem;
+}
+aside:hover{
+	color:#fff;
+	background-color: rgba(255,255,255,0.4);
+	/*text-shadow: 4px 4px 4px rgba(150, 75, 118, 1);*/
+	/*
+}
+
+@font-face {
+   font-family: Futura;
+   src: url(fonts/FuturConObl.ttf);
+}
+*/
+
+#header{
+	width:100%;
+	background-color: black;
+	background-size:100%;
+	margin: 0;
+	height:130px;
+	left:0px;
+	top:0px;
+	position: fixed;
+	z-index:1;
+}
+#footer{
+	width:100%;
+	background-color: black;
+	background-size:100%;
+	color: white;
+	font-family: 'Futura-CondensedMedium', serif;
+	padding-top:20px;
+	padding-left:20px;
+	font-size: 60px;
+	margin: 0;
+	height:130px;
+	left:0px;
+	top:675px;
+	position: fixed;
+	z-index:7;
+}
+
+#backdrop{
+	width:100%;
+	height:805px;
+	background-color:white;
+	background-size:100%;
+	background-position:center 90px;
+	padding-top:0px;
+	z-index:5;
+	margin-left:5%;
+	margin-right:5%;
+	padding-right:5%;
+}
+#artists{
+	width:100%;
+	background-color: white;
+	background-size:100%;
+	left:0px;
+	top:420px;
+	margin:0;
+	height:100px;
+	position:fixed;
+	z-index:6;
+
+}
+
+.label{
+	position:absolute;
+	display: inline-block;
+	text-align:center;
+	color: white;
+	font-size:20px;
+	z-index:6;
+}
+
+.text{
+	position: absolute;
+	column-count:3;
+	column-gap:30px;
+	height:700px;
+	width:90%;
+	font-family: 'Futura PT', serif;
+	font-size:14px;
+	color:black;
+	top:200px;
+}
+
+#banner{
+	position: absolute;
+	top:125px;
+	height:10%;
+	width:10%;
+}
+
+#label_1970s{
+	top: 90px;
+	left: 518px;
+}
+
+#label_1980s{
+	top: 90px;
+	left: 618px;
+}
+
+#label_1990s{
+	top: 90px;
+	left: 718px;
+}
+
+#label_2000s{
+	top: 90px;
+	left: 818px;
+}
+
+#label_2010s{
+	top: 90px;
+	left: 918px;
+}
+
+a#btn_1970s {
+	position:absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 500px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition: transform .5s ease-in-out;
+}
+
+a#btn_1970s:hover{
+	-webkit-transform:rotate(760deg);
+	transform:rotate(760deg);
+}
+
+
+
+a#btn_1980s {
+	position:absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 600px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_1980s:hover{
+	-webkit-transform:rotate(-760deg);
+	transform:rotate(-760deg);
+}
+
+a#btn_1990s {
+	position:absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 700px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+a#btn_1990s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_2000s {
+	position:absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 800px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition: transform .5s ease-in-out;
+}
+
+a#btn_2000s:hover{
+	-webkit-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+}
+
+a#btn_2010s {
+	position:absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 900px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_2010s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_sources {
+	position:absolute;
+	display: inline-block;
+	top: 15px;
+	left: 1350px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+#label_sources{
+	top: 90px;
+	left: 1360px;
+	font-size:; 25px;
+}
+
+a#btn_nicki {
+	display: inline-block;
+	position:absolute;
+	left:30px;
+	top:20px;
+	z-index:0;
+}
+
+a#btn_badass {
+	display: inline-block;
+	position:absolute;
+	left:500px;
+	top:20px;
+	z-index:0;
+}
+
+a#btn_kendrick {
+	display: inline-block;
+	position:absolute;
+	left:920px;
+	top:20px;
+	z-index:0;
+}
+
