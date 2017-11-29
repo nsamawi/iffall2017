@@ -6,27 +6,6 @@ body{
 	font-family: 'Futura-CondensedMedium', serif;
 }
 
-/*
-aside{
-	font-size: 16px;
-	line-height:23px;
-	background-color: rgba(255,255,255,0);
-	color: #ffe6e6; /*#e6e6ff*/
-	/*padding: 1.5rem;
-}
-aside:hover{
-	color:#fff;
-	background-color: rgba(255,255,255,0.4);
-	/*text-shadow: 4px 4px 4px rgba(150, 75, 118, 1);*/
-	/*
-}
-
-@font-face {
-   font-family: Futura;
-   src: url(fonts/FuturConObl.ttf);
-}
-*/
-
 #header{
 	width:100%;
 	background-color: black;
@@ -109,35 +88,35 @@ aside:hover{
 }
 
 #label_1970s{
-	top: 90px;
-	left: 518px;
+	top: 67%;
+	left:36.2%;
 }
 
 #label_1980s{
-	top: 90px;
-	left: 618px;
+	top: 67%;
+	left:43.2%;
 }
 
 #label_1990s{
-	top: 90px;
-	left: 718px;
+	top: 67%;
+	left:50.2%;
 }
 
 #label_2000s{
-	top: 90px;
-	left: 818px;
+	top: 67%;
+	left:57.2%;
 }
 
 #label_2010s{
-	top: 90px;
-	left: 918px;
+	top: 67%;
+	left:64.2%;
 }
 
 a#btn_1970s {
 	position:absolute;
 	display: inline-block;
-	margin-top: 15px;
-	margin-left: 500px;
+	top: 12%;
+	left: 35%;
 	z-index:6;
 	-webkit-transition: -webkit-transform .5s ease-in-out;
 	transition: transform .5s ease-in-out;
@@ -153,8 +132,8 @@ a#btn_1970s:hover{
 a#btn_1980s {
 	position:absolute;
 	display: inline-block;
-	margin-top: 15px;
-	margin-left: 600px;
+	top: 12%;
+	left: 42%;
 	z-index:6;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
 	transition: transform .2s ease-in-out;
@@ -168,8 +147,8 @@ a#btn_1980s:hover{
 a#btn_1990s {
 	position:absolute;
 	display: inline-block;
-	margin-top: 15px;
-	margin-left: 700px;
+	top: 12%;
+	left: 49%;
 	z-index:6;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
 	transition: transform .8s ease-in-out;
@@ -183,8 +162,8 @@ a#btn_1990s:hover{
 a#btn_2000s {
 	position:absolute;
 	display: inline-block;
-	margin-top: 15px;
-	margin-left: 800px;
+	top: 12%;
+	left: 56%;
 	z-index:6;
 	-webkit-transition: -webkit-transform .5s ease-in-out;
 	transition: transform .5s ease-in-out;
@@ -198,8 +177,8 @@ a#btn_2000s:hover{
 a#btn_2010s {
 	position:absolute;
 	display: inline-block;
-	margin-top: 15px;
-	margin-left: 900px;
+	top: 12%;
+	left: 63%;
 	z-index:6;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
 	transition: transform .2s ease-in-out;
