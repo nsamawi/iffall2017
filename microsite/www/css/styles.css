@@ -3,135 +3,171 @@ body{
 	max-width:100%;
 	max-height:100%;
 	overflow-x:hidden;
-	font-family: 'Rosarivo', serif;
+	font-family: 'Futura-CondensedMedium', serif;
 }
-aside{
-	font-size: 16px;
-	line-height:23px;
-	background-color: rgba(255,255,255,0);
-	color: #ffe6e6; /*#e6e6ff*/
-	padding: 1.5rem;
-}
-aside:hover{
-	color:#fff;
-	background-color: rgba(255,255,255,0.4);
-	/*text-shadow: 4px 4px 4px rgba(150, 75, 118, 1);*/
-}
+
 #header{
 	width:100%;
-	background-color: #dedfd9;
+	background-color: black;
 	background-size:100%;
 	margin: 0;
-	height:160px;
-	padding-left:80px;
-	padding-top:0px;
+	height:17%;
+	left:0px;
+	top:0px;
 	position: fixed;
-	z-index:100;
+	z-index:1;
 }
-#banner{
-	margin-top:12px;
-	height:133px;
-	width:350px;
-}
-a#btn_play {
-	position:absolute;
-	display: inline-block;
-	height: 50px;
-	margin-top: -80px;
-	margin-left: 1040px;
-	font-size: 20px;
-}
-a#btn_volume {
-	position:absolute;
-	display: inline-block;
-	height: 50px;
-	margin-top: -80px;
-	margin-left: 1110px;
-	font-size: 20px;
-}
-a#btn_cart {
-	position:absolute;
-	display: inline-block;
-	height: 50px;
-	margin-top: -80px;
-	margin-left: 1180px;
-	font-size: 20px;
-}
-#lyrics{
+#footer{
 	width:100%;
-	height:950px;
-	background-image:url(https://nsamawi.github.io/iffall2017/lyrics/images/backdrop.jpg);
+	background-color: black;
 	background-size:100%;
-	background-position:center 160px;
-	padding-top:160px;
-	z-index:50;
+	color: white;
+	font-family: 'Futura-CondensedMedium', serif;
+	padding-top:20px;
+	padding-left:20px;
+	font-size: 60px;
+	margin: 0;
+	height:17%;
+	left:0px;
+	top:675px;
+	position: fixed;
+	z-index:1;
 }
-#box1{
-	margin-top: 0px;
-	left:90px;
+
+.label{
 	position:absolute;
-	width:285px;
-	height:285px;
+	display: inline-block;
+	text-align:center;
+	color: white;
+	font-size:20px;
+	z-index:6;
 }
-#verse1{
+
+#label_1970s{
+	top: 67%;
+	left:36.2%;
+}
+
+#label_1980s{
+	top: 67%;
+	left:43.2%;
+}
+
+#label_1990s{
+	top: 67%;
+	left:50.2%;
+}
+
+#label_2000s{
+	top: 67%;
+	left:57.2%;
+}
+
+#label_2010s{
+	top: 67%;
+	left:64.2%;
+}
+
+a#btn_1970s {
 	position:absolute;
-	font-weight:400;
-	margin-top:60px;
-	margin-left:4px;
+	display: inline-block;
+	top: 12%;
+	left: 35%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition: transform .5s ease-in-out;
 }
-#box2{
+
+a#btn_1970s:hover{
+	-webkit-transform:rotate(760deg);
+	transform:rotate(760deg);
+}
+
+
+
+a#btn_1980s {
 	position:absolute;
-	margin-top:285px;
-	left:100px;
-	width:285px;
-	height:285px;
+	display: inline-block;
+	top: 12%;
+	left: 42%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
 }
-#chorus1{
+
+a#btn_1980s:hover{
+	-webkit-transform:rotate(-760deg);
+	transform:rotate(-760deg);
+}
+
+a#btn_1990s {
 	position:absolute;
-	font-weight:400;
-	font-style:italic;
-	top:40px;
-	bottom:0px;
+	display: inline-block;
+	top: 12%;
+	left: 49%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
 }
-#box3{
+
+a#btn_1990s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_2000s {
 	position:absolute;
-	left:498px;
-	margin-top:0px;
-	width:366px;
-	height:500px;
+	display: inline-block;
+	top: 12%;
+	left: 56%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition: transform .5s ease-in-out;
 }
-#verse2{
+
+a#btn_2000s:hover{
+	-webkit-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+}
+
+a#btn_2010s {
 	position:absolute;
-	font-weight:400;
-	margin-top:60px;
+	display: inline-block;
+	top: 12%;
+	left: 63%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
 }
-#box4{
+
+a#btn_2010s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_sources {
 	position:absolute;
-	width:285px;
-	height:285px;
-	left:990px;
-	margin-top:0px;
+	display: inline-block;
+	top: 15px;
+	left: 1350px;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
 }
-#chorus2{
-	position:absolute;
-	font-weight:400;
-	font-style:italic;
-	margin-top:60px;
+
+#label_sources{
+	top: 90px;
+	left: 1360px;
+	font-size:; 25px;
 }
-#box5{
-	position:absolute;
-	width:285px;
-	height:270px;
-	margin-top:320px;
-	left:990px;
-	color: rgba(255,204,204,0.4);
-}
-#box5:hover{
-	color: rgba(255,255,255,1);
-	background-color: rgba(0,0,0,0.3);
-}
-#outro{
-	position:absolute;
-	font-weight:200;
-	margin-top:0px;
+
+
+#backdrop{
+	width:100%;
+	height:805px;
+	background-image:url(https://nsamawi.github.io/iffall2017/microsite/images/homepage.jpg);
+	background-size:105%;
+	background-position:center 90px;
+	padding-top:0px;
+	z-index:5;
 }
