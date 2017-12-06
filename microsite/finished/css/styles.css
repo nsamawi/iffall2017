@@ -17,6 +17,8 @@ body{
 	position: fixed;
 	z-index:10;
 }
+
+
 #footer{
 	width:100%;
 	background-color: black;
@@ -216,7 +218,7 @@ a#btn_sources {
 	left:0px;
 	top:50%;
 	margin:0;
-	height:40%;
+	height:60%;
 	position:fixed;
 	z-index:6;
 }
@@ -234,27 +236,27 @@ a#btn_sources {
 
 #banner1{
 	position: absolute;
-	left:1495px;
+	left:104%;
 }
 
 #banner2{
 	position: absolute;
-	left:4050px;
+	left:281.5%;
 }
 
 #banner3{
 	position: absolute;
-	left:6125px;
+	left:425.5%;
 }
 
 #banner4{
 	position: absolute;
-	left:8200px;
+	left:569.5%;
 }
 
 #banner5{
 	position: absolute;
-	left:9770px;
+	left:678.5%;
 }
 
 #banner6{
@@ -276,29 +278,29 @@ a#btn_sources {
 }
 
 #block1{
-	left:1500px;
+	left:104%;
 }
 #block2{
-	left:4050px;
+	left:281.5%;
 }
 #block3{
-	left:6130px;
+	left:425.5%;
 }
 #block4{
-	left:8200px;
+	left:569.5%;
 }
 #block5{
-	left:9770px;
+	left:678.5%;
 }
 #block6{
-	left:11800px;
+	left:819.5%;
 	column-count:1;
 	font-style: italic;
 }
 a#btn_kool-herc {
 	display: inline-block;
 	position:absolute;
-	left:1530px;
+	left:106%;
 	top:20px;
 	z-index:0;
 }
@@ -306,7 +308,7 @@ a#btn_kool-herc {
 a#btn_kblow {
 	display: inline-block;
 	position:absolute;
-	left:1900px;
+	left:132%;
 	top:20px;
 	z-index:0;
 }
@@ -314,7 +316,7 @@ a#btn_kblow {
 a#btn_afrika {
 	display: inline-block;
 	position:absolute;
-	left:2250px;
+	left:156%;
 	top:-15px;
 	z-index:0;
 }
@@ -322,86 +324,86 @@ a#btn_afrika {
 a#btn_gflash {
 	display: inline-block;
 	position:absolute;
-	left:2900px;
+	left:201.5%;
 	top:0px;
 }
 
 a#btn_salt-n-pepa {
 	display: inline-block;
 	position:absolute;
-	left:3350px;
+	left:232.5%;
 	top:20px;
 }
 
 a#btn_NWA {
 	display: inline-block;
 	position:absolute;
-	left:3950px;
+	left:274%;
 }
 
 a#btn_tupac {
 	display: inline-block;
 	position:absolute;
-	left:4800px;
+	left:333%;
 	top:20px;
 }
 
 a#btn_snoop {
 	display: inline-block;
 	position:absolute;
-	left:5200px;
+	left:362%;
 	top:20px;
 }
 
 a#btn_notorious {
 	display: inline-block;
 	position:absolute;
-	left:5600px;
+	left:389%;
 	top:20px;
 }
 
 a#btn_missy{
 	display: inline-block;
 	position:absolute;
-	left:6000px;
+	left:417%;
 	top:20px;
 }
 
 a#btn_jayZ {
 	display: inline-block;
 	position:absolute;
-	left:6400px;
+	left:447%;
 }
 
 a#btn_kanye {
 	display: inline-block;
 	position:absolute;
-	left:6900px;
+	left:480%;
 }
 
 a#btn_MIA {
 	display: inline-block;
 	position:absolute;
-	left:7400px;
+	left:516%;
 }
 
 a#btn_nicki {
 	display: inline-block;
 	position:absolute;
-	left:7820px;
+	left:542%;
 	top:20px;
 }
 
 a#btn_badass {
 	display: inline-block;
 	position:absolute;
-	left:8300px;
+	left:575.5%;
 	top:20px;
 }
 
 a#btn_kendrick {
 	display: inline-block;
 	position:absolute;
-	left:8750px;
+	left:605%;
 	top:20px;
 }
