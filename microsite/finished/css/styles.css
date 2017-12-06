@@ -1,0 +1,407 @@
+body{
+	margin: 0;
+	max-width:100%;
+	max-height:100%;
+	overflow-x:hidden;
+	font-family: 'futura-pt-condensed', Helvetica, Arial, sans-serif;
+}
+
+#header{
+	width:100%;
+	background-color: black;
+	background-size:100%;
+	margin: 0;
+	height:17%;
+	left:0px;
+	top:0px;
+	position: fixed;
+	z-index:10;
+}
+#footer{
+	width:100%;
+	background-color: black;
+	background-size:100%;
+	color: white;
+	font-family: 'futura-pt-condensed', Helvetica, Arial, sans-serif;
+	padding-top:1%;
+	padding-left:2%;
+	font-size: 450%;
+	margin: 0;
+	height:17%;
+	left:0px;
+	top:83%;
+	position: fixed;
+	z-index:10;
+}
+
+.label{
+	position:absolute;
+	display: inline-block;
+	text-align:center;
+	color: white;
+	font-size:22px;
+	z-index:6;
+}
+.circle{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 12%;
+	border-radius:50%;
+	z-index:6;
+}
+#circle1{
+	left: 35%;
+}
+#circle2{
+	left: 42%;
+}
+#circle3{
+	left: 49%;
+}
+#circle4{
+	left: 56%;
+}
+#circle5{
+	left: 63%;
+}
+#circle6{
+	left: 92%;
+}
+#label_1970s{
+	top: 67%;
+	left:36.2%;
+}
+
+#label_1980s{
+	top: 67%;
+	left:43.2%;
+}
+
+#label_1990s{
+	top: 67%;
+	left:50.2%;
+}
+
+#label_2000s{
+	top: 67%;
+	left:57.2%;
+}
+
+#label_2010s{
+	top: 67%;
+	left:64.2%;
+}
+
+a#btn_1970s {
+	position:absolute;
+	display: inline-block;
+	top: 12%;
+	left: 35%;
+	z-index:7;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_1970s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+
+
+a#btn_1980s {
+	position:absolute;
+	display: inline-block;
+	top: 12%;
+	left: 42%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_1980s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_1990s {
+	position:absolute;
+	display: inline-block;
+	top: 12%;
+	left: 49%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_1990s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_2000s {
+	position:absolute;
+	display: inline-block;
+	top: 12%;
+	left: 56%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_2000s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_2010s {
+	position:absolute;
+	display: inline-block;
+	top: 12%;
+	left: 63%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+a#btn_2010s:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+a#btn_sources {
+	position:absolute;
+	display: inline-block;
+	top: 11.5%;
+	left: 92%;
+	z-index:6;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+#label_sources{
+	top: 58%;
+	left: 92.8%;
+	font-size:; 25px;
+}
+
+
+#main{
+	width:100%;
+	height:805px;
+	background-color:white;
+	background-size:100%;
+	background-position:center 90px;
+	padding-top:0px;
+	z-index:5;
+	margin-left:5%;
+	margin-right:5%;
+	padding-right:5%;
+}
+
+
+#backdrop{
+	width:100%;
+	left:0px;
+	height:805px;
+	padding-top:100px;
+	z-index:5;
+	position: fixed;
+}
+
+#artists{
+	width:100%;
+	background-size:100%;
+	left:0px;
+	top:50%;
+	margin:0;
+	height:40%;
+	position:fixed;
+	z-index:6;
+}
+
+#banner{
+	width:100%;
+	background-size:100%;
+	left:0px;
+	top:17%;
+	margin:0;
+	height:100px;
+	position:fixed;
+	z-index:6;
+}
+
+#banner1{
+	position: absolute;
+	left:1495px;
+}
+
+#banner2{
+	position: absolute;
+	left:4050px;
+}
+
+#banner3{
+	position: absolute;
+	left:6125px;
+}
+
+#banner4{
+	position: absolute;
+	left:8200px;
+}
+
+#banner5{
+	position: absolute;
+	left:9770px;
+}
+
+#banner6{
+	position: absolute;
+	left:11800px;
+}
+.text{
+	position: fixed;
+	column-count:3;
+	column-gap:30px;
+	height:180px;
+	width:100%;
+	font-family: 'futura-pt', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:black;
+	top:200px;
+	left:1500px;
+	z-index:5;
+}
+
+#block1{
+	left:1500px;
+}
+#block2{
+	left:4050px;
+}
+#block3{
+	left:6130px;
+}
+#block4{
+	left:8200px;
+}
+#block5{
+	left:9770px;
+}
+#block6{
+	left:11800px;
+	column-count:1;
+	font-style: italic;
+}
+a#btn_kool-herc {
+	display: inline-block;
+	position:absolute;
+	left:1530px;
+	top:20px;
+	z-index:0;
+}
+
+a#btn_kblow {
+	display: inline-block;
+	position:absolute;
+	left:1900px;
+	top:20px;
+	z-index:0;
+}
+
+a#btn_afrika {
+	display: inline-block;
+	position:absolute;
+	left:2250px;
+	top:-15px;
+	z-index:0;
+}
+
+a#btn_gflash {
+	display: inline-block;
+	position:absolute;
+	left:2900px;
+	top:0px;
+}
+
+a#btn_salt-n-pepa {
+	display: inline-block;
+	position:absolute;
+	left:3350px;
+	top:20px;
+}
+
+a#btn_NWA {
+	display: inline-block;
+	position:absolute;
+	left:3950px;
+}
+
+a#btn_tupac {
+	display: inline-block;
+	position:absolute;
+	left:4800px;
+	top:20px;
+}
+
+a#btn_snoop {
+	display: inline-block;
+	position:absolute;
+	left:5200px;
+	top:20px;
+}
+
+a#btn_notorious {
+	display: inline-block;
+	position:absolute;
+	left:5600px;
+	top:20px;
+}
+
+a#btn_missy{
+	display: inline-block;
+	position:absolute;
+	left:6000px;
+	top:20px;
+}
+
+a#btn_jayZ {
+	display: inline-block;
+	position:absolute;
+	left:6400px;
+}
+
+a#btn_kanye {
+	display: inline-block;
+	position:absolute;
+	left:6900px;
+}
+
+a#btn_MIA {
+	display: inline-block;
+	position:absolute;
+	left:7400px;
+}
+
+a#btn_nicki {
+	display: inline-block;
+	position:absolute;
+	left:7820px;
+	top:20px;
+}
+
+a#btn_badass {
+	display: inline-block;
+	position:absolute;
+	left:8300px;
+	top:20px;
+}
+
+a#btn_kendrick {
+	display: inline-block;
+	position:absolute;
+	left:8750px;
+	top:20px;
+}
